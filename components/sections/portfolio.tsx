@@ -102,7 +102,7 @@ export function Portfolio() {
               </div>
 
               <div className="p-6 space-y-6">
-                <div className="aspect-video bg-gradient-to-br from-accent/20 to-accent/5 rounded-lg overflow-hidden">
+                <div className="aspect-video bg-linear-to-br from-accent/20 to-accent/5 rounded-lg overflow-hidden">
                   <img
                     src={selectedProject.image || "/placeholder.svg"}
                     alt={selectedProject.title}
