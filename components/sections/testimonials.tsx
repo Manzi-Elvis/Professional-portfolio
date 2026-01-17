@@ -78,7 +78,7 @@ export function Testimonials() {
 
         <div ref={scrollContainerRef} className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory">
           {[...testimonials, ...testimonials].map((testimonial, i) => (
-            <div key={i} className="flex-shrink-0 w-80 bg-background border border-border rounded-xl p-8 snap-center">
+            <div key={i} className="shrink-0 w-80 bg-background border border-border rounded-xl p-8 snap-center">
               <div className="flex gap-1 mb-4">
                 {Array(testimonial.rating)
                   .fill(0)
