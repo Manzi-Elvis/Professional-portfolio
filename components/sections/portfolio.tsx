@@ -65,7 +65,7 @@ export function Portfolio() {
               onClick={() => setSelectedProject(project)}
               className="group cursor-pointer bg-card border border-border rounded-xl overflow-hidden hover:border-accent transition-all duration-300 hover:shadow-lg"
             >
-              <div className="aspect-video bg-gradient-to-br from-accent/20 to-accent/5 relative overflow-hidden">
+              <div className="aspect-video bg-linear-to-br from-accent/20 to-accent/5 relative overflow-hidden">
                 <img
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
