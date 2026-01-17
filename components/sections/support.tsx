@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 export function Support() {
   return (
-    <section className="py-20 md:py-32 px-6 bg-gradient-to-r from-accent/10 to-accent/5">
+    <section className="py-20 md:py-32 px-6 bg-linear-to-r from-accent/10 to-accent/5">
       <div className="max-w-2xl mx-auto text-center">
         <div className="mb-6 flex justify-center">
           <Heart className="text-accent" size={48} fill="currentColor" />
